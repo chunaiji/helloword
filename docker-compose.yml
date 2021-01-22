@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  helloword:
+    image: ${DOCKER_REGISTRY-}helloword
+    build:
+      context: .
+      dockerfile: HelloWord/Dockerfile

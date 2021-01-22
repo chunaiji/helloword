@@ -1,0 +1,7 @@
+E:\myself\Source\HelloWord\HelloWord\HelloWord\obj\Release\netcoreapp3.1\PubTmp\Out\HelloWord.exe
+E:\myself\Source\HelloWord\HelloWord\HelloWord\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+E:\myself\Source\HelloWord\HelloWord\HelloWord\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+E:\myself\Source\HelloWord\HelloWord\HelloWord\obj\Release\netcoreapp3.1\PubTmp\Out\HelloWord.dll
+E:\myself\Source\HelloWord\HelloWord\HelloWord\obj\Release\netcoreapp3.1\PubTmp\Out\HelloWord.deps.json
+E:\myself\Source\HelloWord\HelloWord\HelloWord\obj\Release\netcoreapp3.1\PubTmp\Out\HelloWord.runtimeconfig.json
+E:\myself\Source\HelloWord\HelloWord\HelloWord\obj\Release\netcoreapp3.1\PubTmp\Out\HelloWord.pdb
