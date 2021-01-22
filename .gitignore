@@ -252,9 +252,7 @@ paket-files/
 *.sln.iml
 
 # Project
-src/CH.Project.Web/Logs/*
-src/CH.Project.Web.Host/Logs/*
-src/CH.Project.IdentityServer/Logs/*
-src/CH.Project.HttpApi.Host/Logs/*
-src/CH.Project.HttpApi.HostWithIds/Logs/*
-src/CH.Project.DbMigrator/Logs/*
+HelloWord/HelloWord/Logs/*
+HelloWord/HelloWord/bin/*
+HelloWord/HelloWord/obj/*
+
