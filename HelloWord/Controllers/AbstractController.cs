@@ -10,5 +10,6 @@ namespace HelloWord.Controllers
     [Route("[controller]/[action]")]
     public abstract class AbstractController : ControllerBase
     {
+      //
     }
 }
