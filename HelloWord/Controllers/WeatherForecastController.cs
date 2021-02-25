@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace HelloWord.Controllers
@@ -26,6 +27,8 @@ namespace HelloWord.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            var client = new HttpClient();
+            //var aa = (client.GetStringAsync("https://localhost:44305/WeatherForecast")).Result;
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
@@ -35,5 +38,6 @@ namespace HelloWord.Controllers
             })
             .ToArray();
         }
+
     }
 }
