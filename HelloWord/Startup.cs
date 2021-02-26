@@ -11,7 +11,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using SkyApm.Utilities.DependencyInjection;
 using Newtonsoft.Json;
 using Microsoft.AspNetCore.Http;
 using System.Net.WebSockets;
@@ -34,7 +33,7 @@ namespace HelloWord
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddSkyApmExtensions();
+            //services.AddSkyApmExtensions();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
